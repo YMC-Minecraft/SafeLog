@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "safelog",
+  "version": "${version}",
+  "name": "Safelog",
+  "description": "Redact IP addresses from Minecraft server logs",
+  "authors": [
+    "YuutaW@YMC"
+  ],
+  "contact": {},
+  "license": "GPLv2",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "moe.ymc.safelog.Safelog"
+    ]
+  },
+  "mixins": [
+    "safelog.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "1.17.1"
+  }
+}

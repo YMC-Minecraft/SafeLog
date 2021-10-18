@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.ymc.safelog.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ServerLoginNetworkHandlerMixin",
+    "PlayerManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
